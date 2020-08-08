@@ -19,7 +19,6 @@ const WarningType = {
 
 export default function UserPage (props) {
 
-    document.body.className = "";
     const id = props.match.params.id;
     const [user, setUser] = useState ({
         isLoaded : false,
