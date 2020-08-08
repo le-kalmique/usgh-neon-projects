@@ -7,6 +7,7 @@ import Image from "./Image/Image";
 import Text from "./Text/Text"
 
 import "./post.css";
+import Game from "./Game/Game";
 
 function Post({content}) {
 
@@ -14,7 +15,8 @@ function Post({content}) {
   content.forEach(item => {
     //check for item type
     if (typeof item == "string") postContents.push(<Text text={item}/>)
-    else postContents.push(<Image src={item.download_url}/>);
+    // else postContents.push(<Image src={item.download_url}/>);
+    else postContents.push(<Game link="https://www.gamee.com/game/KubUJQ"/>)
   });
 
   return <article className="post">

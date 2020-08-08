@@ -10,9 +10,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "link-preview-generator": "0.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-tiny-link": "^3.6.0",
+    "ws": "^7.3.1"
   },
   "scripts": {
     "start": "react-scripts start",

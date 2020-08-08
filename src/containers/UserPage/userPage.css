@@ -11,10 +11,12 @@
 }
 
 #greet_container {
-    background-size: cover;
-    background-image: url('/images/restaurant.jpg');
-    transition: all 200ms ease;
-    box-shadow: inset 0px 0px 8px 4px rgb(177, 177, 177);
+    padding-top : 12vh;
+    background-size: 100% auto;
+    background-image: url('/images/background.png');
+    background-position: center; 
+    transition: all 800ms ease;
+    box-shadow: inset 0px 0px 8px 4px rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,12 +24,14 @@
 }
 
 #greet_container:hover {
-    transition: all 200ms ease;
-    box-shadow: inset 0px 0px 12px 5px rgb(177, 177, 177);
+    transition: all 800ms ease;
+    box-shadow: inset 0px 0px 12px 5px rgb(34, 34, 34);
+    background-size: 104% auto;
 }
 
 #greetings {
     margin : calc(2vw + 2rem) 1rem;
+    color : var(--accent-color);
 }
 
 #greet_fullname {
