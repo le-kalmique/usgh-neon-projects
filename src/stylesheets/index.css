@@ -17,6 +17,7 @@ body {
 
 :root {
   --accent-color: #C60000;
+  --accent-dark: #A80000;
   --background-color: #1d1d1d;
 }
 
@@ -94,6 +95,6 @@ body {
 
 .button:hover {
   transition: all 200ms ease;
-  background-color: #C60000;
+  background-color: var(--accent-color);
 }
 

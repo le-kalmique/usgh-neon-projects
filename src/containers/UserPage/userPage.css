@@ -31,26 +31,30 @@
 
 #greetings {
     margin : calc(2vw + 2rem) 1rem;
-    color : var(--accent-color);
+    color : white;
 }
 
 #greet_fullname {
     font-size : calc(1vw + 1.8rem);
     margin : 0;
+    color : var(--accent-color);
 }
 
 #greet_username {
     font-size : calc(.8vw + .8rem);
     margin-top : calc(.6rem + .4vw);
     margin-bottom: 0;
+    color : var(--accent-color);
 }
 
 #logout_button_outter{
     width : 8.8rem;
     margin : 1rem 1rem;
+    color : white;
 }
 
 #user_container {
+    color : white;
     margin: 0 auto;
     width : 95vw;
     max-width: 50rem;
@@ -75,6 +79,8 @@
 }
 
 .user_action_button {
+    color:white;
+    text-decoration: none;
     display: block;
     max-width: calc(16rem - 5.4vw - 1.2rem);
     width : 95vw;
