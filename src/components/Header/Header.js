@@ -23,16 +23,14 @@ function Header() {
 
       {
         user ?
-        <Link to="/profile" className="link header_link">
-          <span className="header_profile-name">{}</span>
-          <span className="header_profile-image">{}</span>
+        <Link to="/profile" className="link header_link header_login">
+          <span className="header_profile-name">{ user.username }</span>
         </Link>
         :
         <Link to="/auth/login" className="link header_link header_login">
           Login
         </Link>
       }
-
     </header>
   );
 }
