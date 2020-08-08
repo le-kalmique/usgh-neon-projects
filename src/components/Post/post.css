@@ -1,0 +1,27 @@
+.post{
+    width: 40%;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post_dark{
+    background-color: #282c34;
+}
+
+.post__comments-sec{
+
+}
+
+.post__bottom-icon{
+
+}
+
+.post__bottom-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
