@@ -60,7 +60,7 @@ export default class Server {
                 default:
                     break;
             }
-            const response = await fetch("/api/v1" + uri, reqOptions);
+            const response = await fetch("https://cors-anywhere.herokuapp.com/https://daniilzhyrov.herokuapp.com/api/v1" + uri, reqOptions);
             switch(response.status) {
                 case 403:
                     return {

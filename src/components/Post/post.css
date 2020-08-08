@@ -44,6 +44,27 @@
     flex-direction: column;
 }
 
-.post_text {
-    color: wheat;
+.post_stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    border-top: 3px solid var(--background-color);
+}
+
+.post_stats-item {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+.post_stats-item:hover >  .post_icon {
+    transform: scale(1.3);
+}
+
+.post_icon {
+    transition: all .2s ease-in-out;
+
+    font-size: 1.5rem;
 }
