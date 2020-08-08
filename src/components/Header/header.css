@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 @import "../../stylesheets/index.css";
 
@@ -8,7 +9,13 @@
     justify-content: space-between;
     align-items: center;
 
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+
     background: #0A0A0A;
+    box-shadow: 0 0 15px #362828;
+
 }
 
 .header_link {
@@ -38,16 +45,28 @@
     animation: color-change 4s infinite, text-blink 4s infinite;
 }
 
+.title {
+    width: 20%;
+}
+
 .header_nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     width: 30%;
+
+    justify-self: center;
 }
 
 .header_login {
     margin-right: 1rem;
-    font-family: 'Russo One', sans-serif;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+
+    justify-self: flex-end;
+    max-width: 20%;
+
 }
 
 @keyframes color-change {
