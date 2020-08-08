@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import "../../stylesheets/index.css";
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #0A0A0A;
+}
+
+.header_link {
+    color: var(--accent-color);
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.header_icon {
+    font-size: 2rem;
+    min-width: 2rem;
+
+}
+
+.header_link:hover {
+    background-color: var(--accent-color);
+    color: #0A0A0A;
+
+    animation: box-blink 5s infinite, background-color-change 5s infinite;
+}
+
+.header_title {
+    text-decoration: none;
+
+    font-family: 'Russo One', sans-serif;
+    margin-left: 1rem;
+    animation: color-change 4s infinite, text-blink 4s infinite;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.header_login {
+    margin-right: 1rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+@keyframes color-change {
+    0% { color: #C60000; }
+    50% { color: #ff2a00}
+    100% { color: #C60000; }
+}
+
+@keyframes background-color-change {
+    0% { background: #C60000; }
+    50% { background: #ff2a00}
+    100% { background: #C60000; }
+}
+@keyframes text-blink {
+    0% { text-shadow: none; }
+    50% { text-shadow: 0 0 40px red; }
+    100% { text-shadow: none; }
+}
+
+@keyframes box-blink {
+    0% { box-shadow: none; }
+    50% { box-shadow: 0 0 10px red; }
+    100% { box-shadow: none; }
+}
+
+

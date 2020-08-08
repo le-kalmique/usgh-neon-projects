@@ -1,11 +1,22 @@
 import React from 'react';
-import './App.css';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Header from "../../components/Header/Header";
+import Feed from "../Feed/Feed";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Header/>
 
-    </div>
+      <Switch>
+        <Route path={"/"}>
+          <Feed/>
+        </Route>
+        <Route path={"/subscriptions"}>
+
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
