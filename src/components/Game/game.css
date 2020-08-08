@@ -1,0 +1,19 @@
+.game{
+    width: 320px;
+    height: 600px;
+    overflow:hidden;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px #3e3e3e,
+                -5px -5px 10px #666666;
+}
+
+.game-container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

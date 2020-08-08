@@ -1,10 +1,12 @@
 .post{
     width: 40%;
-    height: 40vh;
+    min-height: 150px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
 }
 
 .post_dark{
@@ -23,5 +25,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
+
+.author-sec{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.author-sec__nickname{
+    display: inline-block;
+}
+
+author-sec__avatar{
+    border-radius: 50%;
+    width: 40px;
+}
+
+

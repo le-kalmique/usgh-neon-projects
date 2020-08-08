@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import Post from "../../components/Post/Post"
+import Form from "../../components/Form/Form";
+import Register from "../register/Register";
 
 function App() {
   return (
-    <div className="App">
-      <Post name = "kek"/>
-    </div>
+      <Router>
+            <div className="App">
+              <Switch>
+                  <Route path="/auth/register" exact component={Register} />
+              </Switch>
+            </div>
+      </Router>
   );
 }
 
