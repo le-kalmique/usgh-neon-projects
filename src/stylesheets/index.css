@@ -35,124 +35,6 @@ body {
 }
 
 
-.light_shadow {
-  transition: all 200ms ease;
-  box-shadow: 0px 2px 3px 2px rgb(200, 200, 200);
-}
-
-.light_shadow:hover {
-  transition: all 200ms ease;
-  box-shadow: 0px 2px 5px 2.5px rgb(200, 200, 200);
-}
-
-
-.no_link {
-  color:inherit;
-  text-decoration: none;
-}
-.table {
-  margin: 0 auto;
-  width : 95vw;
-  max-width: 54rem;
-  margin-bottom: 8vh;
-}
-
-.smallMarginTop {
-  margin-top: 2.7vh;
-}
-
-.midMarginTop {
-  margin-top: 4rem;
-}
-
-.largeMarginTop {
-  margin-top: 16vh;
-}
-
-.text_container {
-  font-size: large;
-  line-height: 1.6;
-  font-weight: 300;
-  text-align: center;
-}
-
-.text_container_title {
-  font-size: 2.2rem;
-  margin-top: 0.8vh;
-  margin-bottom: 1.6vh;
-}
-
-.button_outter {
-  margin: 3vh auto;
-  width: 16vw;
-  min-width: 80px;
-}
-
-.white_button {
-  background-color: white;
-}
-
-.white_button:hover {
-  background-color: #F8F8F8;
-}
-
-.big_label {
-  font-size: 4.8vmin;
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-}
-
-.first_table_row {
-  margin-top: 3vh;
-  margin-bottom: 2vh;
-}
-
-.table_row {
-  width: 100%;
-  transition: all 200ms ease;
-  background-color: rgb(235, 235, 235);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.table_row:hover {
-  transition: all 200ms ease;
-  background-color: rgb(228, 228, 228);
-}
-
-.table_cell {
-  display:table-cell;
-  padding : 1.8vh 2.2vw;
-}
-
-.faded {
-  font-weight: 100;
-  color: rgb(128, 128, 128);
-}
-
-#content_outter {
-  position: relative;
-  flex:1;
-  overflow: scroll;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
   .center {
     top: 0%;
@@ -215,12 +97,12 @@ body {
   background-color: #1d1d1d;
   opacity: 0.8;
   transition: all 200ms ease;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
 .button:hover {
   transition: all 200ms ease;
-  background-color: rgb(225, 225, 225);
+  background-color:  #C60000;
 }
