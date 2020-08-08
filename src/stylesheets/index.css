@@ -5,11 +5,12 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #1d1d1d;
+    background: var(--background-color);
 }
 
 :root {
     --accent-color: #C60000;
+    --background-color: #1d1d1d;
 }
 
 .link {
