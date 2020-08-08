@@ -37,11 +37,6 @@ function Feed() {
           <Post key={index} content={['oh wow look this is Image ' + index, i]}/>
         ))}
       </InfiniteScroll>
-      <div id="button_outter">
-          <div id="new_post_button" className="button">
-            +
-          </div>
-      </div>
     </React.Fragment>
   )
 }
