@@ -16,7 +16,7 @@ function Post({content}) {
     //check for item type
     if (typeof item == "string") postContents.push(<Text text={item}/>)
     // else postContents.push(<Image src={item.download_url}/>);
-    else postContents.push(<Game link="https://www.gamee.com/game/KubUJQ"/>)
+    else postContents.push(<Game link="https://gfront.tlgrm.ru/game/flappy/"/>)
   });
 
   return <article className="post">
