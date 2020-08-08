@@ -10,8 +10,7 @@ import "./header.css"
 
 function Header() {
 
-  // const user = getCurrentUser();
-  const user = {name: 'dungeon_master666'}
+  const user = getCurrentUser();
   return (
     <header className="header">
       <Link to="/" className="link title"><h1 className="header_title">NEON</h1></Link>
