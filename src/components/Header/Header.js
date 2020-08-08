@@ -21,7 +21,7 @@ function Header() {
       </nav>
       {user ?
         <Link to={"/users/"+user.id} className="link header_link header_login">
-          {user.name}
+          {user.username}
         </Link>
         :
         <Link to="/auth/login" className="link header_link header_login">
