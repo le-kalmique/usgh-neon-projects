@@ -58,7 +58,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 1rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 
     border-top: 3px solid var(--background-color);
 }
@@ -80,4 +80,5 @@
     transition: all .2s ease-in-out;
 
     font-size: 1.5rem;
+    margin-right: 5px;
 }
