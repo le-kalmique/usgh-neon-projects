@@ -27,7 +27,6 @@
 .header_icon {
     font-size: 2rem;
     min-width: 2rem;
-
 }
 
 .header_link:hover {
@@ -46,7 +45,8 @@
 }
 
 .title {
-    width: 20%;
+    margin-left: 1rem;
+    margin-right: auto;
 }
 
 .header_nav {
