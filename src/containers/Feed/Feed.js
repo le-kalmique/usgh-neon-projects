@@ -35,8 +35,18 @@ function Feed() {
       {posts.map((i, index) => (
         <Post key={index} content={['oh wow look this is Image ' + index, i]}/>
       ))}
+      <NewPostButton/>
     </InfiniteScroll>
   )
+}
+
+function NewPostButton() {
+  return(
+      <div className="new-post-button">
+          <p className="plus">+</p>
+      </div>
+  );
+
 }
 
 export default Feed;

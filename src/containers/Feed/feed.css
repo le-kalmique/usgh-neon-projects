@@ -4,3 +4,24 @@
     align-items: center;
     padding-top: 5rem;
 }
+
+.new-post-button{
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #C60000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plus{
+    color: #1d1d1d;
+    display: inline-block;
+    margin: 0 0 10px 0;
+}
