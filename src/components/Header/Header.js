@@ -21,17 +21,16 @@ function Header() {
         <Link to="#" className="link header_link" activeClassName="header_link_active"><FontAwesomeIcon className="header_icon" icon={faFire}/></Link>
       </nav>
 
-      {user ?
-        <Link to="/profile" className="link header_link">
-          <span className="header_profile-name">{}</span>
-          <span className="header_profile-image">{}</span>
+      {
+        user ?
+        <Link to="/profile" className="link header_link header_login">
+          <span className="header_profile-name">{ user.username }</span>
         </Link>
         :
         <Link to="/auth/login" className="link header_link header_login">
           Login
         </Link>
       }
-
     </header>
   );
 }

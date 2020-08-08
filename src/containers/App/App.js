@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from "../../components/Header/Header";
 import Feed from "../Feed/Feed";
+import UserPage from "../UserPage/UserPage"
 
 function App() {
   return (
@@ -12,9 +13,8 @@ function App() {
         <Route path={"/"}>
           <Feed/>
         </Route>
-        <Route path={"/subscriptions"}>
-
-        </Route>
+        <Route path={"/subscriptions"}/>
+        <Route path={"/users/:id"} exact component={ UserPage } />
       </Switch>
     </Router>
   );
