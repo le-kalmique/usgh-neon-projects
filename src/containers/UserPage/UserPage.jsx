@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Redirect, Link } from 'react-router-dom';
 
-import './user.css'
+import './userPage.css'
 import User, { getRoleName } from '../../utils/models/user';
 import { getCurrentUser, logOut } from '../../utils/auth';
 import Server from '../../utils/server';
 import Message from '../../utils/messages';
-import ConfirmationForm from '../../components/confirmationForm/ConfirmationForm';
+import ConfirmationForm from '../../components/ConfirmationForm/ConfirmationForm';
 
 const WarningType = {
     None : 0,

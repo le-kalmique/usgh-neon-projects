@@ -22,7 +22,6 @@ function Header() {
       {user ?
         <Link to={"/users/"+user.id} className="link header_link header_login">
           {user.name}
-
         </Link>
         :
         <Link to="/auth/login" className="link header_link header_login">
