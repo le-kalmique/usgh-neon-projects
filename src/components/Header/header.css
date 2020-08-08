@@ -27,7 +27,6 @@
 .header_icon {
     font-size: 2rem;
     min-width: 2rem;
-
 }
 
 .header_link:hover {
@@ -46,7 +45,8 @@
 }
 
 .title {
-    width: 20%;
+    margin-left: 1rem;
+    margin-right: auto;
 }
 
 .header_nav {
@@ -54,6 +54,7 @@
     flex-direction: row;
     justify-content: space-between;
 
+    margin: auto;
     width: 30%;
 
     justify-self: center;
@@ -66,6 +67,7 @@
 
     justify-self: flex-end;
     max-width: 20%;
+    margin-left: auto;
 
 }
 

@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart as solidHeart, faShareSquare as solidShare, faComment as solidComment } from '@fortawesome/free-solid-svg-icons'  // поставленный лайк
+import { faHeart as emptyHeart, faShareSquare as emptyShare, faComment as emptyComment } from '@fortawesome/free-regular-svg-icons' // сердце без лайка
 
 import Image from "./Image/Image";
 import Text from "./Text/Text"
@@ -26,6 +29,11 @@ function Post({content}) {
       {postContents.map(item =>
         item
       )}
+    </div>
+    <div className="post_stats">
+      <div className="post_stats-item"><FontAwesomeIcon className="post_icon" icon={solidHeart}/> 245</div>
+      <div className="post_stats-item"><FontAwesomeIcon className="post_icon" icon={solidShare}/> 44</div>
+      <div className="post_stats-item"><FontAwesomeIcon className="post_icon" icon={solidComment}/> 14</div>
     </div>
   </article>
 }
