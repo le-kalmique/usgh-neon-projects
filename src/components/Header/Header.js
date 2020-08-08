@@ -23,7 +23,7 @@ function Header() {
 
       {
         user ?
-        <Link to="/profile" className="link header_link header_login">
+        <Link to={"/users/" + user.id} className="link header_link header_login">
           <span className="header_profile-name">{ user.username }</span>
         </Link>
         :

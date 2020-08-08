@@ -1,0 +1,78 @@
+.feature_item {
+    text-align: center;
+    flex: 1 0 26%;
+    margin : 1.5rem 1rem;
+}
+
+.feature_detail {
+    margin-top: 1.4vh;
+    font-size: calc(1.4rem + .4vw);
+    font-weight: 400;
+}
+
+#greet_container {
+    background-size: cover;
+    background-image: url('/images/restaurant.jpg');
+    transition: all 200ms ease;
+    box-shadow: inset 0px 0px 8px 4px rgb(177, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#greet_container:hover {
+    transition: all 200ms ease;
+    box-shadow: inset 0px 0px 12px 5px rgb(177, 177, 177);
+}
+
+#greetings {
+    margin : calc(2vw + 2rem) 1rem;
+}
+
+#greet_fullname {
+    font-size : calc(1vw + 1.8rem);
+    margin : 0;
+}
+
+#greet_username {
+    font-size : calc(.8vw + .8rem);
+    margin-top : calc(.6rem + .4vw);
+    margin-bottom: 0;
+}
+
+#logout_button_outter{
+    width : 8.8rem;
+    margin : 1rem 1rem;
+}
+
+#user_container {
+    margin: 0 auto;
+    width : 95vw;
+    max-width: 50rem;
+    width : 95vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top : 2.7vw;
+}
+
+#button_box {
+    margin: 0 auto;
+    margin-top: calc(2rem + 2.8vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 95vw;
+    max-width: 50rem;
+    flex-wrap: wrap;
+    margin-bottom : 4rem;
+}
+
+.user_action_button {
+    display: block;
+    max-width: calc(16rem - 5.4vw - 1.2rem);
+    width : 95vw;
+    margin : 1rem .6rem;
+}
