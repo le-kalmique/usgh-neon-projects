@@ -21,7 +21,8 @@ function Header() {
         <Link to="#" className="link header_link" activeClassName="header_link_active"><FontAwesomeIcon className="header_icon" icon={faFire}/></Link>
       </nav>
 
-      {user ?
+      {
+        user ?
         <Link to="/profile" className="link header_link">
           <span className="header_profile-name">{}</span>
           <span className="header_profile-image">{}</span>
