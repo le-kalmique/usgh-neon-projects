@@ -5,10 +5,13 @@
     border-radius: 7px;
     box-shadow: 5px 5px 10px #3e3e3e,
     -5px -5px 10px #666666;
+    /*position: absolute;*/
 }
 
 .game-container{
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0, 0.5);
