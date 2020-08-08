@@ -66,7 +66,7 @@ export default function Register() {
                 text : Messages.Empty,
                 color : Form.MessageColor.Default
             },
-            legend : "Sing up",
+            legend : "Sign up",
             footer : <React.Fragment>Already have an account? <Link to="/auth/login"> Login </Link></React.Fragment>
         }
     });
