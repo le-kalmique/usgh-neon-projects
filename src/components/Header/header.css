@@ -54,6 +54,7 @@
     flex-direction: row;
     justify-content: space-between;
 
+    margin: auto;
     width: 30%;
 
     justify-self: center;
@@ -66,6 +67,7 @@
 
     justify-self: flex-end;
     max-width: 20%;
+    margin-left: auto;
 
 }
 
