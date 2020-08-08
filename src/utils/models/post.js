@@ -36,4 +36,12 @@ export default class Post {
     static deleteById (id){
         return Server.makeARequest('/posts/' + id, Server.Method.DELETE);
     }
+
+    static likeById (id) {
+        return Server.makeARequest('/posts/' + id + "?option=liked" , Server.Method.PUT);
+    }
+
+    static unlikeById (id) {
+        return Server.makeARequest('/posts/' + id + "?option=unliked" , Server.Method.PUT);
+    }
 }

@@ -98,27 +98,27 @@ export default function UserPage (props) {
             :
             <React.Fragment>
                 <div id = "greet_container">
-                        <div id="greetings">
-                            <p className = "emphasized" id="greet_fullname">
-                                { owner ? "Hi, " : ""}
-                                { user.data.fullname }
-                            </p>
-                            <p id = "greet_username">
-                                { owner ? "Your " : ""}
-                                username is&nbsp;
-                                { user.data.username }
-                            </p>
-                        </div>
-                        {
-                            owner ?
-                            <div id="logout_button_outter">
-                                <div className="button light_shadow white_button" onClick={logOut} >
-                                    Sign out
-                                </div>
-                            </div>
-                            : ""
-                        }
+                    <div id="greetings">
+                        <p className = "emphasized" id="greet_fullname">
+                            { owner ? "Hi, " : ""}
+                            { user.data.fullname }
+                        </p>
+                        <p id = "greet_username">
+                            { owner ? "Your " : ""}
+                            username is&nbsp;
+                            { user.data.username }
+                        </p>
                     </div>
+                    {
+                        owner ?
+                        <div id="logout_button_outter">
+                            <div className="button light_shadow white_button" onClick={logOut} >
+                                Sign out
+                            </div>
+                        </div>
+                        : ""
+                    }
+                </div>
                 <div id="user_container">
                     <div className="feature_item">
                         <div className="faded">
