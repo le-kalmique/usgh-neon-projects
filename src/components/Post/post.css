@@ -1,7 +1,7 @@
 .post {
     width: 40%;
     margin: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem 1.4rem 2rem;
     border-radius: 25px;
 
     background-color: #262626;
@@ -36,8 +36,8 @@
 }
 
 .post_user-image {
-    width: 4em;
-    height: 4em;
+    width: 3.5em;
+    height: 3.5em;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--accent-color)
@@ -58,7 +58,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 1rem;
-    padding-top: 2rem;
+    padding-top: 1.4rem;
 
     border-top: 3px solid var(--background-color);
 }
@@ -81,4 +81,9 @@
 
     font-size: 1.5rem;
     margin-right: 5px;
+}
+
+.post_text{
+    margin-left: 0.2rem;
+    margin-top: 8px;
 }
