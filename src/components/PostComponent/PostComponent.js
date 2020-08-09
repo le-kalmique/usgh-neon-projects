@@ -5,6 +5,7 @@ import { faHeart as emptyHeart } from '@fortawesome/free-regular-svg-icons';
 
 import "./postComponent.css";
 import Game from "./Game/Game";
+import Poll from "./Poll/Poll";
 import Post from "../../utils/models/post";
 
 function PostComponent({postFilling}) {
@@ -33,8 +34,8 @@ function PostComponent({postFilling}) {
         { postFilling.content.contentType.includes(Post.ContentType.Game) ? <Game link={postFilling.content.data.game} /> : '' }
         { postFilling.content.contentType.includes(Post.ContentType.Images) ? postFilling.content.data.images.map((link, index) => <img src={link} alt={index} className={"post_image light_shadow"} key={index} />) : '' }
         { postFilling.content.contentType.includes(Post.ContentType.Videos) ? <iframe title="video" src={postFilling.content.data.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="post_video" /> : '' }
-        { postFilling.content.contentType.includes(Post.ContentType.Text) ? <p id="post_text"> {postFilling.content.data.text} </p> : '' }
-        { postFilling.content.contentType.includes(Post.ContentType.Poll) ? <p>1</p> : '' }
+        { postFilling.content.contentType.includes(Post.ContentType.Text) ? <p className="post_text"> {postFilling.content.data.text} </p> : '' }
+        { postFilling.content.contentType.includes(Post.ContentType.Poll) ? <Poll /> : '' }
       </div>
       <div className="post_stats">
         <div className="post_stats-item" onClick={cb}><FontAwesomeIcon className="post_icon" icon={ liked ? solidHeart : emptyHeart}/> {amountOfLikes}</div>

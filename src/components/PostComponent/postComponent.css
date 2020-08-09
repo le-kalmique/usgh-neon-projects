@@ -49,11 +49,12 @@
     width: 100%;
     flex-direction: column;
     color: wheat;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
-#post_text {
+.post_text {
     padding : .2rem .6rem;
+    line-height: 1.4;
 }
 
 .post_stats {
@@ -83,11 +84,6 @@
 
     font-size: 1.5rem;
     margin-right: 5px;
-}
-
-.post_text{
-    margin-left: 0.2rem;
-    margin-top: 8px;
 }
 
 .post_image {

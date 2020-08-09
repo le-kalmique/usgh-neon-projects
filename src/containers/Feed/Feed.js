@@ -40,10 +40,11 @@ function Feed() {
       content : {
         contentType : [
           Post.ContentType.Text,
-          Post.ContentType.Videos
+          Post.ContentType.Videos,
+          Post.ContentType.Poll
         ],
         data : {
-          text : "Hello everyone. I'm working on my biggest project and I'm dying for you to try it. Write comments and stay tuned for updates. Thank you.",
+          text : "Hey, check my first experience in Unity! I believe I did great! What would you say?",
           video : "https://www.youtube.com/embed/xPACyhqlLm0"
         }
       }
