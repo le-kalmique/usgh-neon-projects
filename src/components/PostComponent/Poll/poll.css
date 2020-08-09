@@ -110,7 +110,7 @@
   visibility: hidden;
 }
 
-.background {
+.poll_background {
 	transition: all 600ms ease;
 	position: absolute;
 	height : 100%;

@@ -24,7 +24,7 @@ function Poll({options}) {
                     Submit
                 </div>
             </div>
-            <div id="background" className="background">
+            <div id="background" className="poll_background">
                 <p className = "emphasized poll_thanks">
                     Thanks for your vote!
                 </p>
