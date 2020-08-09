@@ -10,14 +10,15 @@ const MyCustomCard = styled(Microlink)`
   border-radius: 0.42857em;
   background: "#222222";
   width : "100%";
+  margin : .4rem 0;
 `
 
-function Game(props) {
+function Game({link}) {
 
   const [preview, setPreview] = useState({loading: true})
 
   const previewGame =
-    <MyCustomCard url={props.link} style={{}}
+    <MyCustomCard url={link} style={{}}
                onClick={(ev) => {ev.preventDefault(); setGameElement(playableGame)}}/>;
 
   
@@ -26,7 +27,7 @@ function Game(props) {
 
   const playableGame =
     <div className="game-container" onClick={()=> {setGameElement(previewGame)}}>
-      <iframe title="game" src={props.link} frameBorder="0" className="game"/>
+      <iframe title="game" src={link} frameBorder="0" className="game"/>
     </div>;
 
 

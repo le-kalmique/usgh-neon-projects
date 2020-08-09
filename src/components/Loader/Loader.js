@@ -4,7 +4,7 @@ import './loader.css';
 
 function Loader() {
   return <div className="loader bottom">
-            <div/><div/><div/><div/>
+            
         </div>
 }
 
