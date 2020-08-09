@@ -40,10 +40,11 @@ function Feed() {
       content : {
         contentType : [
           Post.ContentType.Text,
-          Post.ContentType.Videos
+          Post.ContentType.Videos,
+          Post.ContentType.Poll
         ],
         data : {
-          text : "Hello everyone. I'm working on my biggest project and I'm dying for you to try it. Write comments and stay tuned for updates. Thank you.",
+          text : "Hey, check my first experience in Unity! I believe I did great! What would you say?",
           video : "https://www.youtube.com/embed/xPACyhqlLm0"
         }
       }
@@ -63,6 +64,42 @@ function Feed() {
         data : {
           text : "Hello everyone. I'm working on my biggest project and I'm dying for you to try it. Write comments and stay tuned for updates. Thank you.",
           game : "https://gfront.tlgrm.ru/game/flappy/"
+        }
+      }
+    },
+    {
+      author : "Dong Nguyen",
+      profilePhotoURL : "https://img.pngio.com/flappy-bird-hd-free-windows-phone-app-market-flappy-bird-icon-300_300.jpg",
+      date : "Some time ago",
+      amountOfLikes : 134,
+      liked : false,
+      amountOfComments : 88,
+      content : {
+        contentType : [
+          Post.ContentType.Text,
+          Post.ContentType.Game
+        ],
+        data : {
+          text : "Hello everyone. I'm working on my biggest project and I'm dying for you to try it. Write comments and stay tuned for updates. Thank you.",
+          game : "https://gfront.tlgrm.ru/game/2048/"
+        }
+      }
+    },
+    {
+      author : "Dong Nguyen",
+      profilePhotoURL : "https://img.pngio.com/flappy-bird-hd-free-windows-phone-app-market-flappy-bird-icon-300_300.jpg",
+      date : "Some time ago",
+      amountOfLikes : 134,
+      liked : false,
+      amountOfComments : 88,
+      content : {
+        contentType : [
+          Post.ContentType.Text,
+          Post.ContentType.Game
+        ],
+        data : {
+          text : "Hello everyone. I'm working on my biggest project and I'm dying for you to try it. Write comments and stay tuned for updates. Thank you.",
+          game : "https://gfront.tlgrm.ru/game/hextris/"
         }
       }
     }
